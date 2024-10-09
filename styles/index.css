@@ -28,7 +28,12 @@ header{
 }
 
 .navbar{
-    border: solid red;
+    background-color: var(--colorBlanco);
+    border-radius: 24px;
+}
+
+.navbar-toggler{
+    background-color: var(--colorPrimario);
 }
 
 header img{
@@ -89,6 +94,7 @@ header img{
 
 .designers{
     margin: 16px;
+    text-align: center;
 }
 
 .designers img{
@@ -264,3 +270,81 @@ footer button{
     padding: 16px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar a{
+        font-size: 24px;
+    }
+
+    .hero{
+        height: 40vh;
+    }
+
+    .info-hero{
+        margin-top: 15%;
+        width: 80%;
+    }
+
+    .designers{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .designers img{
+        width: 50%;
+    }
+
+    #carouselExampleCaptions{
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    .products{
+        width: 70%;
+        margin: 10% 15%;
+    }
+
+    .favorites{
+        width: 70%;
+        margin: 10% 15%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .hero{
+        height: 60vh;
+    }
+
+    .designers{
+        display: flex;
+        text-align: left;
+    }
+
+    .designers img{
+        margin-right: 24px;
+    }
+
+    .products{
+        width: 90%;
+        margin: 5%;
+    }
+
+    .galeria{
+        display: flex;
+        gap: 16px;
+    }
+
+    .img-pro1{
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+    }
+
+    .galery-products2{
+        width: 60%;
+    }
+}
