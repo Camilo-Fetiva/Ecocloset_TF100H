@@ -30,10 +30,18 @@ header{
 .navbar{
     background-color: var(--colorBlanco);
     border-radius: 24px;
+    width: 100%;
 }
 
 .navbar-toggler{
     background-color: var(--colorPrimario);
+}
+
+.btn{
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 header img{
@@ -114,17 +122,69 @@ header img{
     margin: 8px 0;
 }
 
+.divisor-color{
+    border: solid var(--colorBase2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.cuadrado1{
+    width: 45px;
+    height: 10px;
+    
+    background-color: var(--colorPrimario);
+}
+
+.cuadrado2{
+    width: 45px;
+    height: 10px;
+    background-color: var(--colorSecundario);
+   
+}
+
+.cuadrado3{
+    width: 45px;
+    height: 10px;
+    background-color: #AB4E68;
+    
+}
+
+.cuadrado4{
+    width: 45px;
+    height: 10px;
+    background-color: #B07156;
+    
+}
+
+.cuadrado5{
+    width: 45px;
+    height: 10px;
+    background-color: #B4D2E7;
+    
+}
+
+.cuadrado6{
+    width: 45px;
+    height: 10px;
+    background-color: #F7F0F5;
+    
+}
+
 #carouselExampleCaptions{
     margin: 16px;
+    height: 25%;
 }
 
 #carouselExampleCaptions h5{
     background-color: var(--colorPrimario);
     color: var(--colorBlanco);
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bolder;
     border-radius: 8px;
     padding: 8px;
+    margin: auto;
 }
 
 .categorias h1{
@@ -133,11 +193,9 @@ header img{
     color: var(--colorSecundario);
     margin: 16px;
     text-align: center;
-    margin-top: 80px;
 }
 .products{
     margin: 16px;
-    margin-top: 80px;
 }
 
 .products h1{
@@ -193,7 +251,6 @@ header img{
 
 .favorites{
     margin: 16px;
-    margin-top:100px;
 }
 
 .favorites h1{
@@ -210,7 +267,8 @@ header img{
 }
 
 .card-product img{
-    width: 100%;
+    width: 90%;
+    margin: 5%;
 }
 
 .producto-texto{
@@ -302,8 +360,12 @@ footer button{
     }
 
     #carouselExampleCaptions{
-        width: 70%;
-        margin: 0 15%;
+        margin: 24px;
+        height: 40vh;
+    }
+
+    #carouselExampleCaptions h5{
+        margin: 32px auto;
     }
 
     .products{
@@ -318,12 +380,25 @@ footer button{
 }
 
 @media screen and (min-width: 1024px)and (max-width: 1920px){
+    .navbar{
+        width: 100%;
+        font-size: 20px;
+    }
+
     .hero{
         height: 60vh;
     }
     .info-hero{
-        margin-top: 25%;
-        width: 70%;
+        margin-top: 12%;
+        width: 80%;
+    }
+
+    .info-hero h1{
+        font-size: 60px;
+    }
+
+    .info-hero p{
+        font-size: 24px;
     }
 
     .designers{
@@ -334,11 +409,6 @@ footer button{
     .designers img{
         margin-right: 24px;
         width: 40%;
-    }
-
-    #carouselExampleCaptions{
-        width: 50%;
-        margin: auto;
     }
 
     .products{
@@ -370,6 +440,8 @@ footer button{
     .lista-productos{
         width: 100%;
         display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 24px;
     }
 
@@ -382,44 +454,5 @@ footer button{
 
     .redes-footer{
         display: flex;
-    }
-}
-
-@media screen and (max-width: 1920px){
-    .navbar{
-        width: 100%;
-    }
-
-    .navbar img{
-        width: 10%;
-    }
-
-    .navbar a{
-        font-size: 32px;
-        gap: 16px;
-    }
-
-    .d-flex{
-        width: 60%;
-    }
-
-    .hero{
-        margin: 16px 32px;
-    }
-
-    .designers{
-        margin: 40px 32px;
-        align-items: center;
-    }
-
-    /* #carouselExampleCaptions{
-        width: 30%;
-        margin: auto;
-    } */
-
-    .lista-productos{
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 80px;
     }
 }
