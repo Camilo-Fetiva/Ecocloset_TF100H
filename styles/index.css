@@ -99,6 +99,7 @@ header img{
 
 .designers img{
     width: 100%;
+    height: auto;
 }
 
 .designers h1{
@@ -118,9 +119,12 @@ header img{
 }
 
 #carouselExampleCaptions h5{
-    color: var(--colorSecundario);
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
     font-size: 36px;
     font-weight: bolder;
+    border-radius: 8px;
+    padding: 8px;
 }
 
 .categorias h1{
@@ -270,7 +274,7 @@ footer button{
     padding: 16px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .navbar{
         width: 100%;
     }
@@ -313,9 +317,13 @@ footer button{
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px)and (max-width: 1920px){
     .hero{
         height: 60vh;
+    }
+    .info-hero{
+        margin-top: 25%;
+        width: 70%;
     }
 
     .designers{
@@ -325,6 +333,12 @@ footer button{
 
     .designers img{
         margin-right: 24px;
+        width: 40%;
+    }
+
+    #carouselExampleCaptions{
+        width: 50%;
+        margin: auto;
     }
 
     .products{
@@ -346,5 +360,66 @@ footer button{
 
     .galery-products2{
         width: 60%;
+    }
+
+    .favorites{
+        width: 90%;
+        margin: 5%;
+    }
+
+    .lista-productos{
+        width: 100%;
+        display: flex;
+        gap: 24px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .redes-footer{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar img{
+        width: 10%;
+    }
+
+    .navbar a{
+        font-size: 32px;
+        gap: 16px;
+    }
+
+    .d-flex{
+        width: 60%;
+    }
+
+    .hero{
+        margin: 16px 32px;
+    }
+
+    .designers{
+        margin: 40px 32px;
+        align-items: center;
+    }
+
+    /* #carouselExampleCaptions{
+        width: 30%;
+        margin: auto;
+    } */
+
+    .lista-productos{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
     }
 }
