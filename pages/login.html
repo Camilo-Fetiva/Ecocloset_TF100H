@@ -8,6 +8,7 @@
 
     <title>login-Ecocloset</title>
 
+    <script async src="/scripts/logica.js"></script>
     <link rel="stylesheet" href="/styles/login.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,24 +27,24 @@
     <h1>Login</h1>
     <div class="row">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Nombre*" aria-label="First name">
+          <input type="text" class="form-control" placeholder="Nombre*" aria-label="First name" required>
         </div>
         <div class="col">
-          <input type="text" class="form-control" placeholder="Apellido*" aria-label="Last name">
+          <input type="text" class="form-control" placeholder="Apellido*" aria-label="Last name" required>
         </div>
     </div>
 
     <div class="mb-3">
         <label for="formGroupExampleInput" class="form-label">Correo Electronico*</label>
-        <input type="text" class="form-control" id="formGroupExampleInput">
+        <input type="text" class="form-control" id="formGroupExampleInput" required>
     </div>
     <div class="mb-3">
         <label for="formGroupExampleInput2" class="form-label">Teléfono*</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2">  
+        <input type="text" class="form-control" id="formGroupExampleInput2" required>  
     </div>
     <div class="mb-3">
         <label for="formGroupExampleInput2" class="form-label">Contraseña*</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2">  
+        <input type="text" class="form-control" id="formGroupExampleInput2" required>  
     </div>
 
     <div class="form-check">
@@ -53,7 +54,7 @@
         </label>
     </div>
 
-    <button class="btn-login" type="submit">Login</button>
+    <a href="/index.html"><button class="btn-login" type="submit" onclick="nombreUser()">Login</button></a>
 
     <h3>Accede con</h3>
 
