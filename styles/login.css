@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --colorPrimario: #0E6C64;
+    --colorSecundario: #5F5566;
+    --colorTexto: #333333;
+    --colorBlanco: #EEEFEF;
+    --tipography:"Montserrat", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: var(--tipography);
+    overflow-x: hidden;
+}
+
+header{
+    background-color: var(--colorPrimario);
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 20%;
+    margin: 16px;
+}
+
+main{
+    margin: 5%;
+    background-color: var(--colorBlanco);
+    padding: 5%;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.mb-3{
+    text-align: left;
+}
+
+.btn-login{
+    all: unset;
+    background-color: var(--colorPrimario);
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: var(--colorBlanco);
+    font-weight: bolder;
+    margin: 16px;
+}
+
+main h1{
+    color: var(--colorPrimario);
+    font-weight: bolder;
+    text-align: left;
+}
+
+.form-check-label{
+    text-align: left;
+    font-size: 14px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes img{
+    margin: 8px;
+}
+
+footer{
+    background-color: var(--colorPrimario);
+    padding: 32px;
+    color: var(--colorBlanco);
+}
+
+footer h3{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+footer button{
+    all: unset;
+    font-size: 24px;
+    background-color: var(--colorSecundario);
+    color: var(--colorBlanco);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius:8px ;
+    margin: 16px 0px;
+}
+
+#correo{
+    all: unset;
+    background-color: var(--colorBlanco);
+    width: 90%;
+    padding: 8px;
+    color: var(--colorTexto);
+}
+
+.redes-footer{
+    text-align: center;
+}
+
+.redes-footer img{
+    padding: 16px;
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1920px){
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .redes-footer{
+        display: flex;
+    }
+}
