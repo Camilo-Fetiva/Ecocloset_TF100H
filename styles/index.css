@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --colorPrimario: #0E6C64;
+    --colorSecundario: #5F5566;
+    --colorTexto: #333333;
+    --colorBlanco: #EEEFEF;
+    --tipography:"Montserrat", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: var(--tipography);
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    margin: auto;
+    padding: 8px;
+    margin: 8px;
+}
+
+header img{
+    width: 20%;
+    height: 20%;
+    margin: 8px 40px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    background-color: var(--colorBlanco);
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--colorBlanco);
+}
+
+.search img{
+    width: 50%;
+    height: 50%;
+    margin: 8px;
+}
+
+.hero{
+    background-image: url(/assests/img-banner.png);
+    background-size: cover;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.info-hero{
+    margin: 16px;
+}
+
+.info-hero h1{
+    font-size: 48px;
+    color: var(--colorBlanco);
+}
+
+.info-hero p{
+    font-size: 16px;
+    color: var(--colorBlanco);
+    margin: 8px 0;
+}
+
+.info-hero button{
+    all: unset;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+.designers{
+    margin: 16px;
+}
+
+.designers img{
+    width: 100%;
+}
+
+.designers h1{
+    font-size: 48px;
+    color: var(--colorSecundario);
+}
+
+.designers p{
+    font-size: 16px;
+    font-weight: bolder;
+    color: var(--colorTexto);
+    margin: 8px 0;
+}
+
+#carouselExampleCaptions{
+    margin: 16px;
+}
+
+#carouselExampleCaptions h5{
+    color: var(--colorSecundario);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.categorias h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--colorSecundario);
+    margin: 16px;
+    text-align: center;
+    margin-top: 80px;
+}
+.products{
+    margin: 16px;
+    margin-top: 80px;
+}
+
+.products h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--colorSecundario);
+    text-align: center;
+}
+
+.img-pro1{
+    background-image: url(/assests/img-producto1.png);
+    background-size: cover;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.info-products{
+    margin-top:400px;
+}
+
+.info-products h1{
+    text-align: left;
+    font-size: 48px;
+    color: var(--colorBlanco);
+}
+
+.info-products button{
+    all: unset;
+    font-size: 24px;
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius:8px ;
+}
+
+.img-pro2{
+    background-image: url(/assests/img-producto2.png);
+    background-size: cover;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.img-pro3{
+    background-image: url(/assests/img-producto3.png);
+    background-size: cover;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.favorites{
+    margin: 16px;
+}
+
+.favorites h1{
+    margin-top:100px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--colorSecundario);
+    text-align: center;
+}
+
+.card-product{
+    background-color:var(--colorBlanco);
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.card-product img{
+    width: 100%;
+}
+
+.producto-texto{
+    padding: 16px;
+}
+
+.producto-texto h1{
+    text-align: left;
+    color: var(--colorPrimario);
+}
+
+.producto-texto h3{
+    font-weight: bolder;
+}
+
+.producto-texto button{
+    all: unset;
+    font-size: 24px;
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius:8px ;
+}
+
+footer{
+    background-color: var(--colorPrimario);
+    padding: 32px;
+    color: var(--colorBlanco);
+}
+
+footer h3{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+footer button{
+    all: unset;
+    font-size: 24px;
+    background-color: var(--colorSecundario);
+    color: var(--colorBlanco);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius:8px ;
+    margin: 16px 0px;
+}
+
+#correo{
+    all: unset;
+    background-color: var(--colorBlanco);
+    width: 90%;
+    padding: 8px;
+    color: var(--colorTexto);
+}
+
+.redes-footer{
+    text-align: center;
+}
+
+.redes-footer img{
+    padding: 16px;
+}
+
