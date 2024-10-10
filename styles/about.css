@@ -451,6 +451,10 @@ footer button {
         align-items: center;
     }
 
+    .features .feature {
+        width: 85%;
+    }
+
     .feature {
         width: 90%;
         margin-bottom: 20px;
