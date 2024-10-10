@@ -68,7 +68,7 @@ header img{
 }
 
 .hero{
-    background-image: url(/assests/img-banner.png);
+    background-image: url(/assests/img-productsBanner.png);
     background-size: cover;
     margin: 16px;
     padding: 16px;
@@ -98,28 +98,6 @@ header img{
     color: var(--colorBlanco);
     padding: 16px 32px;
     border-radius: 8px;
-}
-
-.designers{
-    margin: 16px;
-    text-align: center;
-}
-
-.designers img{
-    width: 100%;
-    height: auto;
-}
-
-.designers h1{
-    font-size: 48px;
-    color: var(--colorSecundario);
-}
-
-.designers p{
-    font-size: 16px;
-    font-weight: bolder;
-    color: var(--colorTexto);
-    margin: 8px 0;
 }
 
 .divisor-color{
@@ -172,28 +150,6 @@ header img{
     
 }
 
-#carouselExampleCaptions{
-    margin: 16px;
-    height: 25%;
-}
-
-#carouselExampleCaptions h5{
-    background-color: var(--colorPrimario);
-    color: var(--colorBlanco);
-    font-size: 24px;
-    font-weight: bolder;
-    border-radius: 8px;
-    padding: 8px;
-    margin: auto;
-}
-
-.categorias h1{
-    font-size: 48px;
-    font-weight: bolder;
-    color: var(--colorSecundario);
-    margin: 16px;
-    text-align: center;
-}
 .products{
     margin: 16px;
 }
@@ -356,24 +312,6 @@ footer button{
         width: 80%;
     }
 
-    .designers{
-        margin-top: 10%;
-        text-align: center;
-    }
-
-    .designers img{
-        width: 50%;
-    }
-
-    #carouselExampleCaptions{
-        margin: 24px;
-        height: 40vh;
-    }
-
-    #carouselExampleCaptions h5{
-        margin: 32px auto;
-    }
-
     .products{
         width: 70%;
         margin: 10% 15%;
@@ -405,16 +343,6 @@ footer button{
 
     .info-hero p{
         font-size: 24px;
-    }
-
-    .designers{
-        display: flex;
-        text-align: left;
-    }
-
-    .designers img{
-        margin-right: 24px;
-        width: 40%;
     }
 
     .products{
