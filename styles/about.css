@@ -224,7 +224,7 @@ header img {
 .cta {
     text-align: center;
     padding: 50px 20px;
-    background-color: var(--colorBlanco);
+    /* background-color: var(--colorBlanco); */
     font-weight: 900;
 }
 
@@ -633,4 +633,3 @@ footer button {
         padding: 16px;
     }
 }
-
