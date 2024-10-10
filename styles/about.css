@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --colorPrimario: #0E6C64;
     --colorSecundario: #5F5566;
     --colorTexto: #333333;
     --colorBlanco: #EEEFEF;
-    --tipography:"Montserrat", sans-serif;
+    --tipography: "Montserrat", sans-serif;
 }
 
 body {
@@ -20,37 +20,37 @@ body {
     background-color: white;
 }
 
-header{
+header {
     display: flex;
     margin: auto;
     padding: 8px;
     margin: 8px;
 }
 
-.navbar{
+.navbar {
     background-color: var(--colorBlanco);
     border-radius: 24px;
     width: 100%;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     background-color: var(--colorPrimario);
 }
 
-.btn{
+.btn {
     background-color: var(--colorPrimario);
     color: var(--colorBlanco);
     font-size: 16px;
     font-weight: bolder;
 }
 
-header img{
+header img {
     width: 20%;
     height: 20%;
     margin: 8px 40px;
 }
 
-.search{
+.search {
     display: flex;
     align-items: center;
     text-align: center;
@@ -61,7 +61,7 @@ header img{
     color: var(--colorBlanco);
 }
 
-.search img{
+.search img {
     width: 50%;
     height: 50%;
     margin: 8px;
@@ -70,7 +70,8 @@ header img{
 
 /* Intro Section */
 .intro {
-    background-color: var(--colorSecundario); /* Color morado oscuro */
+    background-color: var(--colorSecundario);
+    /* Color morado oscuro */
     padding: 50px 20px;
     /* border-radius: 10px; */
     color: var(--colorBlanco);
@@ -95,14 +96,13 @@ header img{
 }
 
 .text h1 {
-    font-size: 48px; 
+    font-size: 48px;
     margin-bottom: 30px;
-
+    font-weight: 600;
 }
 
 .text p {
     font-size: 20px;
-    line-height: 1.8;
     max-width: 600px;
     margin-bottom: 40px;
 }
@@ -118,7 +118,8 @@ header img{
     background-color: var(--colorPrimario);
     color: var(--colorBlanco);
     border: none;
-    padding: 20px 50px; /* Botones más grandes */
+    padding: 20px 50px;
+    /* Botones más grandes */
     border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
@@ -175,7 +176,8 @@ header img{
     display: flex;
     justify-content: space-between;
     padding: 50px 20px;
-    gap: 20px; /* Espacio entre las tarjetas */
+    gap: 20px;
+    /* Espacio entre las tarjetas */
 }
 
 .features .feature {
@@ -197,22 +199,24 @@ header img{
 }
 
 .features .image img {
-    max-width: 100%; /* Imagen ocupa el 100% del contenedor */
-    height: auto; 
-    border-radius: 10px; /* Bordes redondeados para imagenes */
-    object-fit: cover; 
+    max-width: 100%;
+    /* Imagen ocupa el 100% del contenedor */
+    height: auto;
+    border-radius: 10px;
+    /* Bordes redondeados para imagenes */
+    object-fit: cover;
     height: 60%;
 }
 
 .features h3 {
-    font-size: 22px;
+    font-size: 32px;
     margin-bottom: 10px;
     color: var(--colorTexto);
+    font-weight: 900;
 }
 
 .features p {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 18px;
     color: var(--colorTexto);
 }
 
@@ -220,11 +224,12 @@ header img{
 .cta {
     text-align: center;
     padding: 50px 20px;
-    background-color: var(--colorBlanco); 
+    background-color: var(--colorBlanco);
+    font-weight: 900;
 }
 
 .cta h2 {
-    font-size: 28px;
+    font-size: 70px;
     margin-bottom: 40px;
     color: var(--colorSecundario);
 }
@@ -238,35 +243,37 @@ header img{
 }
 
 .cta-item {
-    width: 30%; /* Ancho de las secciones de texto */
+    width: 30%;
+    /* Ancho de las secciones de texto */
     text-align: center;
 }
 
 .cta-item h3 {
-    font-size: 24px;
-    color: var(--colorPrimario); /* Color del texto "Comprar" y "Vender" */
+    font-size: 50px;
+    color: var(--colorPrimario);
+    /* Color del texto "Comprar" y "Vender" */
     margin-bottom: 10px;
 }
 
 .cta-item p {
-    font-size: 16px;
+    font-size: 20px;
     color: var(--colorTexto);
-    line-height: 1.6;
 }
 
 .cta-image {
-    width: 30%; /* Ancho de la imagen */
+    width: 30%;
+    /* Ancho de la imagen */
     text-align: center;
 }
 
 .cta-image img {
     max-width: 100%;
     height: auto;
-    object-fit: contain; 
+    object-fit: contain;
 }
 
 .cta-item p {
-    padding: 0 20px; 
+    padding: 0 20px;
 }
 
 /* Carbon Footprint Section */
@@ -283,7 +290,7 @@ header img{
 
 .carbon-content {
     position: relative;
-    }
+}
 
 .carbon-content h2 {
     font-size: 80px;
@@ -292,29 +299,29 @@ header img{
 }
 
 
-footer{
+footer {
     background-color: var(--colorPrimario);
     padding: 32px;
     color: var(--colorBlanco);
 }
 
-footer h3{
+footer h3 {
     font-size: 24px;
     font-weight: bolder;
 }
 
-footer button{
+footer button {
     all: unset;
     font-size: 24px;
     background-color: var(--colorSecundario);
     color: var(--colorBlanco);
     font-weight: bolder;
     padding: 8px;
-    border-radius:8px ;
+    border-radius: 8px;
     margin: 16px 0px;
 }
 
-#correo{
+#correo {
     all: unset;
     background-color: var(--colorBlanco);
     width: 90%;
@@ -322,10 +329,308 @@ footer button{
     color: var(--colorTexto);
 }
 
-.redes-footer{
+.redes-footer {
     text-align: center;
 }
 
-.redes-footer img{
+.redes-footer img {
     padding: 16px;
 }
+
+/* mediaQuerie de PC */
+@media screen and (min-width: 1024px)and (max-width: 1920px) {
+    .navbar {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .redes-footer {
+        display: flex;
+    }
+}
+
+/* mediaQuerie de Celular */
+@media screen and (max-width: 767px) {
+    header {
+        display: flex;
+        margin: auto;
+        padding: 8px;
+        margin: 8px;
+    }
+
+    .navbar {
+        background-color: var(--colorBlanco);
+        border-radius: 24px;
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        background-color: var(--colorPrimario);
+    }
+
+    .btn {
+        background-color: var(--colorPrimario);
+        color: var(--colorBlanco);
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    header img {
+        width: 20%;
+        height: 20%;
+        margin: 8px 40px;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 60%;
+        background-color: var(--colorBlanco);
+        padding: 8px;
+        border-radius: 8px;
+        color: var(--colorBlanco);
+    }
+
+    .search img {
+        width: 50%;
+        height: 50%;
+        margin: 8px;
+    }
+
+
+
+
+
+
+    footer {
+        background-color: var(--colorPrimario);
+        padding: 32px;
+        color: var(--colorBlanco);
+    }
+
+    footer h3 {
+        font-size: 24px;
+        font-weight: bolder;
+    }
+
+    footer button {
+        all: unset;
+        font-size: 24px;
+        background-color: var(--colorSecundario);
+        color: var(--colorBlanco);
+        font-weight: bolder;
+        padding: 8px;
+        border-radius: 8px;
+        margin: 16px 0px;
+    }
+
+    #correo {
+        all: unset;
+        background-color: var(--colorBlanco);
+        width: 90%;
+        padding: 8px;
+        color: var(--colorTexto);
+    }
+
+    .redes-footer {
+        text-align: center;
+    }
+
+    .redes-footer img {
+        padding: 16px;
+    }
+}
+
+/* mediaQuerie de Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar a {
+        font-size: 24px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .intro-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .text-principal {
+        text-align: center;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .btn-verificaciones,
+    .btn-compradores,
+    .btn-vendedores {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .color-bar {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: solid red; */
+    }
+    
+    .features .feature {
+        width: 85%;
+    }
+    
+    .feature {
+        width: 100vw;
+        margin-bottom: 20px;
+        /* border: solid red; */
+    }
+    
+    .feature .image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .feature h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .feature p {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+    
+    .cta-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-item {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .cta-image {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cta-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .carbon-footprint {
+        background-image: url('../assests/img-aboutBanner.png');
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        /* Ajusta según sea necesario */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .carbon-content {
+        text-align: center;
+    }
+    
+    .carbon-content h2 {
+        font-size: 48px;
+        justify-content: center;
+        align-content: center;
+        font-weight: 600;
+    }
+    
+    footer {
+        background-color: var(--colorPrimario);
+        padding: 32px;
+        color: var(--colorBlanco);
+    }
+    
+    footer h3 {
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    
+    footer button {
+        all: unset;
+        font-size: 24px;
+        background-color: var(--colorSecundario);
+        color: var(--colorBlanco);
+        font-weight: bolder;
+        padding: 8px;
+        border-radius: 8px;
+        margin: 16px 0px;
+    }
+    
+    #correo {
+        all: unset;
+        background-color: var(--colorBlanco);
+        width: 90%;
+        padding: 8px;
+        color: var(--colorTexto);
+    }
+    
+    .redes-footer {
+        text-align: center;
+    }
+    
+    .redes-footer img {
+        padding: 16px;
+    }
+}
+
