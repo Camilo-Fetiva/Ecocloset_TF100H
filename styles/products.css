@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --colorPrimario: #0E6C64;
+    --colorSecundario: #5F5566;
+    --colorTexto: #333333;
+    --colorBlanco: #EEEFEF;
+    --tipography:"Montserrat", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: var(--tipography);
+    overflow-x: hidden;
+}
+
+/* Aca empieza el header */
+/* Aca va el navbar */
+header{
+    display: flex;
+    margin: auto;
+    padding: 8px;
+    margin: 8px;
+}
+
+.navbar{
+    background-color: var(--colorBlanco);
+    border-radius: 24px;
+    width: 100%;
+}
+
+.navbar-toggler{
+    background-color: var(--colorPrimario);
+}
+
+.btn{
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+header img{
+    width: 20%;
+    height: 20%;
+    margin: 8px 40px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    background-color: var(--colorBlanco);
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--colorBlanco);
+}
+
+.search img{
+    width: 50%;
+    height: 50%;
+    margin: 8px;
+}
+/* Aca finaliza el navbar */
+
+/* Aca empieza el main */
+/* Esta seccion es del hero */
+.hero{
+    background-image: url(/assests/img-productsBanner.png);
+    background-size: cover;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.info-hero{
+    margin: 16px;
+}
+
+.info-hero h1{
+    font-size: 48px;
+    color: var(--colorBlanco);
+}
+
+.info-hero p{
+    font-size: 16px;
+    color: var(--colorBlanco);
+    margin: 8px 0;
+}
+
+.info-hero button{
+    all: unset;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+/* Aca van los cuadros de color */
+.divisor-color{
+    border: solid var(--colorBase2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.cuadrado1{
+    width: 45px;
+    height: 10px;
+    
+    background-color: var(--colorPrimario);
+}
+
+.cuadrado2{
+    width: 45px;
+    height: 10px;
+    background-color: var(--colorSecundario);
+   
+}
+
+.cuadrado3{
+    width: 45px;
+    height: 10px;
+    background-color: #AB4E68;
+    
+}
+
+.cuadrado4{
+    width: 45px;
+    height: 10px;
+    background-color: #B07156;
+    
+}
+
+.cuadrado5{
+    width: 45px;
+    height: 10px;
+    background-color: #B4D2E7;
+    
+}
+
+.cuadrado6{
+    width: 45px;
+    height: 10px;
+    background-color: #F7F0F5;
+    
+}
+
+/* Esta es la seccion de los productos destacados */
+.products{
+    margin: 16px;
+}
+
+.products h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--colorSecundario);
+    text-align: center;
+}
+
+.img-pro1{
+    background-image: url(/assests/img-producto1.png);
+    background-size: cover;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.info-products{
+    margin-top:400px;
+}
+
+.info-products h1{
+    text-align: left;
+    font-size: 48px;
+    color: var(--colorBlanco);
+}
+
+.info-products button{
+    all: unset;
+    font-size: 24px;
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius:8px ;
+}
+
+.img-pro2{
+    background-image: url(/assests/img-producto2.png);
+    background-size: cover;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.img-pro3{
+    background-image: url(/assests/img-producto3.png);
+    background-size: cover;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+/* Seccion de favoritos */
+.favorites{
+    margin: 16px;
+}
+
+.favorites h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--colorSecundario);
+    text-align: center;
+}
+
+.card-product{
+    background-color:var(--colorBlanco);
+    border-radius: 16px;
+    margin-bottom: 32px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: transform 0.3s ease;
+}
+
+.card-product:hover{
+    transform: translateY(-10px); 
+}
+
+.card-product img{
+    width: 90%;
+    margin: 5%;
+}
+
+.producto-texto{
+    padding: 16px;
+}
+
+.producto-texto h1{
+    text-align: left;
+    color: var(--colorPrimario);
+}
+
+.producto-texto h3{
+    font-weight: bolder;
+}
+
+.producto-texto button{
+    all: unset;
+    font-size: 24px;
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius:8px ;
+}
+
+/* Aca empieza el footer */
+footer{
+    background-color: var(--colorPrimario);
+    padding: 32px;
+    color: var(--colorBlanco);
+}
+
+footer h3{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+footer button{
+    all: unset;
+    font-size: 24px;
+    background-color: var(--colorSecundario);
+    color: var(--colorBlanco);
+    font-weight: bolder;
+    padding: 8px;
+    border-radius:8px ;
+    margin: 16px 0px;
+}
+
+#correo{
+    all: unset;
+    background-color: var(--colorBlanco);
+    width: 90%;
+    padding: 8px;
+    color: var(--colorTexto);
+}
+
+.redes-footer{
+    text-align: center;
+}
+
+.redes-footer img{
+    padding: 16px;
+}
+
+/* Meda screen para las medidas de tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    /* Seccion de navbar */
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar a{
+        font-size: 24px;
+    }
+
+    /* Seccion de banner */
+    .hero{
+        height: 40vh;
+    }
+
+    .info-hero{
+        margin-top: 15%;
+        width: 80%;
+    }
+
+    /* Seccionde productos */
+    .products{
+        width: 70%;
+        margin: 10% 15%;
+    }
+
+    /* Cards de favoritos */
+    .favorites{
+        width: 70%;
+        margin: 10% 15%;
+    }
+}
+
+/* Media screen para la medida de pc */
+@media screen and (min-width: 1024px)and (max-width: 1920px){
+    /* Ajustes de la navbar */
+    .navbar{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* Ajustes al banner */
+    .hero{
+        height: 60vh;
+    }
+    .info-hero{
+        margin-top: 12%;
+        width: 80%;
+    }
+
+    .info-hero h1{
+        font-size: 60px;
+    }
+
+    .info-hero p{
+        font-size: 24px;
+    }
+
+    /* Seccion de productos */
+    .products{
+        width: 90%;
+        margin: 5%;
+    }
+
+    .galeria{
+        display: flex;
+        gap: 16px;
+    }
+
+    .img-pro1{
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+    }
+
+    .galery-products2{
+        width: 60%;
+    }
+
+    .favorites{
+        width: 90%;
+        margin: 5%;
+    }
+
+    /* Lista de productos */
+    .lista-productos{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    /* Footer */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .redes-footer{
+        display: flex;
+    }
+}

@@ -20,6 +20,8 @@ body{
     overflow-x: hidden;
 }
 
+/* Aca empieza el header */
+/* Aca va el navbar */
 header{
     display: flex;
     margin: auto;
@@ -28,7 +30,20 @@ header{
 }
 
 .navbar{
-    border: solid red;
+    background-color: var(--colorBlanco);
+    border-radius: 24px;
+    width: 100%;
+}
+
+.navbar-toggler{
+    background-color: var(--colorPrimario);
+}
+
+.btn{
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 header img{
@@ -53,7 +68,10 @@ header img{
     height: 50%;
     margin: 8px;
 }
+/* Aca finaliza el navbar */
 
+/* Aca empieza el main */
+/* Esta seccion es del hero */
 .hero{
     background-image: url(/assests/img-banner.png);
     background-size: cover;
@@ -87,12 +105,15 @@ header img{
     border-radius: 8px;
 }
 
+/* Esta es la seccion de disenadores */
 .designers{
     margin: 16px;
+    text-align: center;
 }
 
 .designers img{
     width: 100%;
+    height: auto;
 }
 
 .designers h1{
@@ -107,14 +128,71 @@ header img{
     margin: 8px 0;
 }
 
+/* Aca van los cuadros de color */
+.divisor-color{
+    border: solid var(--colorBase2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.cuadrado1{
+    width: 45px;
+    height: 10px;
+    
+    background-color: var(--colorPrimario);
+}
+
+.cuadrado2{
+    width: 45px;
+    height: 10px;
+    background-color: var(--colorSecundario);
+   
+}
+
+.cuadrado3{
+    width: 45px;
+    height: 10px;
+    background-color: #AB4E68;
+    
+}
+
+.cuadrado4{
+    width: 45px;
+    height: 10px;
+    background-color: #B07156;
+    
+}
+
+.cuadrado5{
+    width: 45px;
+    height: 10px;
+    background-color: #B4D2E7;
+    
+}
+
+.cuadrado6{
+    width: 45px;
+    height: 10px;
+    background-color: #F7F0F5;
+    
+}
+
+/* Esta es la seccion de las categorias */
 #carouselExampleCaptions{
     margin: 16px;
+    height: 25%;
 }
 
 #carouselExampleCaptions h5{
-    color: var(--colorSecundario);
-    font-size: 36px;
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    font-size: 24px;
     font-weight: bolder;
+    border-radius: 8px;
+    padding: 8px;
+    margin: auto;
 }
 
 .categorias h1{
@@ -123,11 +201,11 @@ header img{
     color: var(--colorSecundario);
     margin: 16px;
     text-align: center;
-    margin-top: 80px;
 }
+
+/* Esta es la seccion de los productos destacados */
 .products{
     margin: 16px;
-    margin-top: 80px;
 }
 
 .products h1{
@@ -181,9 +259,9 @@ header img{
     margin-bottom: 32px;
 }
 
+/* Seccion de favoritos */
 .favorites{
     margin: 16px;
-    margin-top:100px;
 }
 
 .favorites h1{
@@ -197,10 +275,17 @@ header img{
     background-color:var(--colorBlanco);
     border-radius: 16px;
     margin-bottom: 32px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: transform 0.3s ease;
+}
+
+.card-product:hover{
+    transform: translateY(-10px); 
 }
 
 .card-product img{
-    width: 100%;
+    width: 90%;
+    margin: 5%;
 }
 
 .producto-texto{
@@ -226,6 +311,7 @@ header img{
     border-radius:8px ;
 }
 
+/* Aca empieza el footer */
 footer{
     background-color: var(--colorPrimario);
     padding: 32px;
@@ -264,3 +350,141 @@ footer button{
     padding: 16px;
 }
 
+/* Meda screen para las medidas de tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    /* Seccion de navbar */
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar a{
+        font-size: 24px;
+    }
+
+    /* Seccion de banner */
+    .hero{
+        height: 40vh;
+    }
+
+    .info-hero{
+        margin-top: 15%;
+        width: 80%;
+    }
+
+    /* Seccion de disenadores */
+    .designers{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .designers img{
+        width: 50%;
+    }
+
+    /* Seccion de carousel */
+    #carouselExampleCaptions{
+        margin: 24px;
+        height: 40vh;
+    }
+
+    #carouselExampleCaptions h5{
+        margin: 32px auto;
+    }
+
+    /* Seccionde productos */
+    .products{
+        width: 70%;
+        margin: 10% 15%;
+    }
+
+    /* Cards de favoritos */
+    .favorites{
+        width: 70%;
+        margin: 10% 15%;
+    }
+}
+
+/* Media screen para la medida de pc */
+@media screen and (min-width: 1024px)and (max-width: 1920px){
+    /* Ajustes de la navbar */
+    .navbar{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* Ajustes al banner */
+    .hero{
+        height: 60vh;
+    }
+    .info-hero{
+        margin-top: 12%;
+        width: 80%;
+    }
+
+    .info-hero h1{
+        font-size: 60px;
+    }
+
+    .info-hero p{
+        font-size: 24px;
+    }
+
+    /* Seccion de disenadores */
+    .designers{
+        display: flex;
+        text-align: left;
+    }
+
+    .designers img{
+        margin-right: 24px;
+        width: 40%;
+    }
+
+    /* Seccion de productos */
+    .products{
+        width: 90%;
+        margin: 5%;
+    }
+
+    .galeria{
+        display: flex;
+        gap: 16px;
+    }
+
+    .img-pro1{
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+    }
+
+    .galery-products2{
+        width: 60%;
+    }
+
+    /* Lista de productos */
+    .favorites{
+        width: 90%;
+        margin: 5%;
+    }
+
+    .lista-productos{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    /* Footer */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .redes-footer{
+        display: flex;
+    }
+}
