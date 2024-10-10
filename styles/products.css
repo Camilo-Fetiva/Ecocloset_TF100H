@@ -20,6 +20,8 @@ body{
     overflow-x: hidden;
 }
 
+/* Aca empieza el header */
+/* Aca va el navbar */
 header{
     display: flex;
     margin: auto;
@@ -66,7 +68,10 @@ header img{
     height: 50%;
     margin: 8px;
 }
+/* Aca finaliza el navbar */
 
+/* Aca empieza el main */
+/* Esta seccion es del hero */
 .hero{
     background-image: url(/assests/img-productsBanner.png);
     background-size: cover;
@@ -100,6 +105,7 @@ header img{
     border-radius: 8px;
 }
 
+/* Aca van los cuadros de color */
 .divisor-color{
     border: solid var(--colorBase2);
     display: flex;
@@ -150,6 +156,7 @@ header img{
     
 }
 
+/* Esta es la seccion de los productos destacados */
 .products{
     margin: 16px;
 }
@@ -205,6 +212,7 @@ header img{
     margin-bottom: 32px;
 }
 
+/* Seccion de favoritos */
 .favorites{
     margin: 16px;
 }
@@ -256,6 +264,7 @@ header img{
     border-radius:8px ;
 }
 
+/* Aca empieza el footer */
 footer{
     background-color: var(--colorPrimario);
     padding: 32px;
@@ -294,7 +303,9 @@ footer button{
     padding: 16px;
 }
 
+/* Meda screen para las medidas de tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px){
+    /* Seccion de navbar */
     .navbar{
         width: 100%;
     }
@@ -303,6 +314,7 @@ footer button{
         font-size: 24px;
     }
 
+    /* Seccion de banner */
     .hero{
         height: 40vh;
     }
@@ -312,23 +324,28 @@ footer button{
         width: 80%;
     }
 
+    /* Seccionde productos */
     .products{
         width: 70%;
         margin: 10% 15%;
     }
 
+    /* Cards de favoritos */
     .favorites{
         width: 70%;
         margin: 10% 15%;
     }
 }
 
+/* Media screen para la medida de pc */
 @media screen and (min-width: 1024px)and (max-width: 1920px){
+    /* Ajustes de la navbar */
     .navbar{
         width: 100%;
         font-size: 20px;
     }
 
+    /* Ajustes al banner */
     .hero{
         height: 60vh;
     }
@@ -345,6 +362,7 @@ footer button{
         font-size: 24px;
     }
 
+    /* Seccion de productos */
     .products{
         width: 90%;
         margin: 5%;
@@ -371,6 +389,7 @@ footer button{
         margin: 5%;
     }
 
+    /* Lista de productos */
     .lista-productos{
         width: 100%;
         display: flex;
@@ -379,6 +398,7 @@ footer button{
         gap: 24px;
     }
 
+    /* Footer */
     footer{
         display: flex;
         justify-content: center;

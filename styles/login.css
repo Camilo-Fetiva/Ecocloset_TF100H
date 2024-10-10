@@ -20,6 +20,7 @@ body{
     overflow-x: hidden;
 }
 
+/* Aca empieza el header */
 header{
     background-color: var(--colorPrimario);
     display: flex;
@@ -31,6 +32,8 @@ header img{
     margin: 16px;
 }
 
+/* Aca empieza el main */
+/* Esta seccion es del formulario */
 main{
     margin: 5%;
     background-color: var(--colorBlanco);
@@ -79,6 +82,7 @@ main h1{
     margin: 8px;
 }
 
+/* Aca empieza el footer */
 footer{
     background-color: var(--colorPrimario);
     padding: 32px;
@@ -117,6 +121,7 @@ footer button{
     padding: 16px;
 }
 
+/* Medida para pc con ajuste solo en el footer */
 @media screen and (min-width: 1024px)and (max-width: 1920px){
     footer{
         display: flex;
