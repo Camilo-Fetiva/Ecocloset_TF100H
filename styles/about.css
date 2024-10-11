@@ -500,21 +500,25 @@ footer button {
     }
 
     .carbon-footprint {
-        height: 250px;
-        overflow: hidden;
+        background-image: url('../assests/img-aboutBanner.png');
+        /* background-size: cover; */
+        background-position: center;
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .carbon-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
         text-align: center;
-        width: 100%;
     }
 
     .carbon-content h2 {
-        font-size: 30px;
-        color: var(--colorBlanco);
+        font-size: 32px;
+        justify-content: center;
+        align-content: center;
+        font-weight: 600;
     }
 
     footer {
