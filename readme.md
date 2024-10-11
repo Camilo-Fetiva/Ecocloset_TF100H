@@ -6,7 +6,7 @@ Esta es la directiva realizada para crear el sitio web de Ecocloset
 ![alt text](img-development.gif)
 
 1. HTML 
-    Se generaron 4 nodos distintos:
+    Se generaron 4 nodos distintos de paginas:
     * Home: Es el landing page del sitio, donde se encuentra la información más relevante
     * Login: Es un formulario de registro donde el usuario puede acceder a todos los beneficios de Ecocloset
     * Productos: Es el nodo donde se desglozan de mejor manera una lista de productos completos basados en su categoria
