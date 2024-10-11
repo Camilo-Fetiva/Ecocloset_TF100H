@@ -75,6 +75,7 @@ header img{
 .hero{
     background-image: url(/assests/img-productsBanner.png);
     background-size: cover;
+    background-position: center;
     margin: 16px;
     padding: 16px;
     border-radius: 16px;
@@ -93,6 +94,7 @@ header img{
     font-size: 16px;
     color: var(--colorBlanco);
     margin: 8px 0;
+    font-weight: bold;
 }
 
 .info-hero button{
@@ -171,6 +173,7 @@ header img{
 .img-pro1{
     background-image: url(/assests/img-producto1.png);
     background-size: cover;
+    background-position: center;
     padding: 24px;
     border-radius: 16px;
     margin-bottom: 32px;
@@ -199,6 +202,7 @@ header img{
 .img-pro2{
     background-image: url(/assests/img-producto2.png);
     background-size: cover;
+    background-position: center;
     padding: 24px;
     border-radius: 16px;
     margin-bottom: 32px;
