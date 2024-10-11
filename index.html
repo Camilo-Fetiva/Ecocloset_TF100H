@@ -10,7 +10,7 @@
 
     <title>index-Ecocloset</title>
 
-    
+    <script async src="/scripts/logica.js"></script>
     <link rel="stylesheet" href="styles/index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,9 +60,26 @@
             <section class="info-hero">
                 <h1>Vístete con propósito</h1>
                 <p>Nuestra nueva colección de moda sostenible combina estilo y responsabilidad, porque la verdadera elegancia empieza con decisiones conscientes.</p>
-                <a href="/pages/productos.html" style="text-decoration: none"><button>Ver mas</button></a>
+                <button id="abrir-modal">Ver mas</button>
             </section>
         </section>
+
+        <!-- Modal de registro 10% off -->
+        <section class="popup-container" id="popup_container">
+          <section class="popup">
+            <section class="img-modal"></section>
+            <!-- <img src="/assests/img-modalPc.png" alt="imagen modal"> -->
+            <section class="info-popup">
+              <h1>Regístrate por un 10% de descuento en tu primera compra!</h1>
+              <h3>Obtén al instante las ultimas noticias y contenido premium y más!</h3>
+              <input type="email" name="" id="correo2" placeholder="Correo Electrónico">
+              <button id="registro">Registrate</button>
+              <button id="salir">Cerrar</button>
+              <p>Al registrar tu correo electrónico confirmas el recibir emails de parte de Ecocloset.</p>
+            </section>
+          </section>
+        </section>
+        <!-- Fin del modal -->
 
         <!-- aca se ponen los cuadrados de color -->
         <section class="divisor-color">
