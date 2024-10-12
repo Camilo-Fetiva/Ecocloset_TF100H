@@ -5,6 +5,25 @@ Esta es la directiva realizada para crear el sitio web de Ecocloset
 
 ![alt text](img-development.gif)
 
+## DESCRIPCION DEL PROYECTO
+
+Ecocloset en una aplicación que conecta de manera rápida y sencilla estos consumidores de moda sostenible con los emprendimientos que generan un cambio en la industria de la moda, para generar un cambio eficaz y moderno con el uso de herramientas a la vanguardia de la tecnología y siempre buscando el objetivo de ser sostenibles.
+
+## DISEÑO DEL PROYECTO
+
+![alt text](About.png)
+
+![alt text](Home.png)
+
+![alt text](<Lista Productos.png>)
+
+![alt text](SignUp.png)
+</br>
+</br>
+</br>
+
+## TECNOLOGÍAS USADAS EN EL DESARROLLO
+
 1. HTML 
     Se generaron 4 nodos distintos de paginas:
     * Home: Es el landing page del sitio, donde se encuentra la información más relevante
@@ -23,4 +42,4 @@ Esta es la directiva realizada para crear el sitio web de Ecocloset
 
 
 ## AUTORES
-<br> Proyecto realizado por Santiago Gutierrez y Camilo Fetiva para el Bootcamp de Desarrollo Web 2024 </br>
+<br> Proyecto realizado por Santiago Gutierrez (Como desarollador) y Camilo Fetiva (Como SCRUM Master )para el Bootcamp de Desarrollo Web 2024 </br>
