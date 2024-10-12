@@ -38,7 +38,7 @@ Ecocloset en una aplicación que conecta de manera rápida y sencilla estos cons
     * About Us: Contamos de manera visual y divertida el objetivo de Ecocloset
 
 3. JavaScript
-    * La unica función que incluimos fue la del nombre de usuario que nos permite tomar el dato desde el login y mostrarlo en el header de la pagina
+    * La unica función que incluimos fue la degenerar un modal en la pagina de inicio para dar un mensaje de descuento.
 
 
 ## AUTORES
